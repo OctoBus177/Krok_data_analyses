@@ -21,4 +21,4 @@ def analysis_partners_by_region(df_part, df_sales):
         df_total = df_total.append(new_row, ignore_index= True)
 
     df_total =  df_total.sort_values(by = name_spend, ascending=False)
-    ed.export_df_in_excel('./Analysis.xlsx', 'region', df_total)
+    ed.export_df_in_excel('/home/octobus/work/Krok_it_school/Krok_data_analyses/Analysis.xlsx', 'region', df_total)

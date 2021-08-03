@@ -5,7 +5,7 @@ import export_data as ed
 import analytics_funcs as af
 import draw_frame
 
-NAME = "/home/octobus/work/Krok_it_school/Krok_data_analyses/DataSet_практика.xlsx"
+NAME = "DataSet_практика.xlsx"
 SALES = "Подажи"
 PRODUCTS = "Товары"
 PARTNERS = "Контрагенты"
